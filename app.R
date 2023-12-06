@@ -1,6 +1,14 @@
 library(shiny)
 library(magick)
 
+# Install custermized googleway 
+# devtools::install_github("yingda-guo-capgemini/googleway")
+# library(googleway)
+# 
+# # Load Google api key
+# source("~/private/googlemap_api_key.R")
+# googleway::set_key(google_map_api_key)
+
 # Set up python environment
 library(reticulate)
 use_python("/opt/homebrew/Caskroom/miniforge/base/envs/yolov8/bin/python")
